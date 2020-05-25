@@ -41,7 +41,7 @@ const (
 // checkError makes error handling not as ugly and inefficient.
 func checkError(err error) {
 	if err != nil {
-		log.Fatalf("WiiSOAP forgot how to drive and suddenly crashed! Reason: %s\n", err.Error())
+		log.Fatalf("wiisoap decided to commit die Reason: %s\n", err.Error())
 	}
 }
 
